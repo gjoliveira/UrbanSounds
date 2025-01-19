@@ -28,6 +28,8 @@ The objective of this project is to build and evaluate deep learning classifiers
 
 -Street music
 
+
+
 The project implements and compares two classifiers from the following options:
 
 -Multilayer Perceptron (MLP)
