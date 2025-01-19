@@ -9,14 +9,23 @@ This repository contains the implementation of a deep learning project focused o
 The objective of this project is to build and evaluate deep learning classifiers capable of identifying sound samples from one of the following 10 urban sound categories:
 
 -Air conditioner
+
 -Car horn
+
 -Children playing
+
 -Dog bark
+
 -Drilling
+
 -Engine idling
+
 -Gunshot
+
 -Jackhammer
+
 -Siren
+
 -Street music
 
 The project implements and compares two classifiers from the following options:
