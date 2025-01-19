@@ -31,7 +31,9 @@ The objective of this project is to build and evaluate deep learning classifiers
 The project implements and compares two classifiers from the following options:
 
 -Multilayer Perceptron (MLP)
+
 -Convolutional Neural Network (CNN)
+
 -Recurrent Neural Network (RNN)
 
 # Dataset
@@ -44,23 +46,28 @@ The project workflow is divided into four main steps:
 
   1. Data Pre-processing
 Uniformizing and normalizing audio input.
+
 Extracting features from audio signals using techniques such as Mel-frequency cepstral coefficients (MFCCs).
+
 Managing class labels using the provided UrbanSound8K.csv file.
 
   3. Model Architecture
 MLP: Customizable layers, neurons, and activation functions.
+
 CNN: Includes options for 1D or 2D architectures based on raw signal processing or time-frequency representations.
+
 RNN: Implements LSTM or GRU networks with options for unidirectional or bidirectional connections.
 
   5. Training Strategy
+
 Optimizers: Configurable options such as Adam or SGD.
+
 Hyperparameters: Adjustable learning rate, batch size, and epochs.
+
 Regularization: Includes dropout, weight regularization, and early stopping.
+
 Cross-validation: Uses a 10-fold strategy to ensure robust performance evaluation.
 
-  7. Performance Evaluation
-Confusion matrix computation.
-Average classification accuracy and standard deviation over 10 experiments.
 
 
 
